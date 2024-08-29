@@ -10,16 +10,60 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: CatalystNeuro placeholder (2024). (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/001169/draft
+citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, Christine
+  M. (2024) Distinct value computations support rapid sequential decisions (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001169/draft
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation: []
+  includeInCitation: true
+  name: Mah, Andrew
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Schiereck, Shannon S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Bossio, Veronica
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: cmc472@nyu.edu
+  identifier: 0000-0003-4435-4460
+  includeInCitation: true
+  name: Constantinople, Christine M.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2024-08-08T07:43:25.766173+00:00'
-description: 'CatalystNeuro placeholder '
+description: The value of the environment determines animals’ motivational states
+  and sets expectations for error-based learning. How are values computed? Reinforcement
+  learning systems can store or cache values of states or actions that are learned
+  from experience, or they can compute values using a model of the environment to
+  simulate possible futures. These value computations have distinct trade-offs, and
+  a central question is how neural systems decide which computations to use or whether/how
+  to combine them. Here we show that rats use distinct value computations for sequential
+  decisions within single trials. We used high-throughput training to collect statistically
+  powerful datasets from 291 rats performing a temporal wagering task with hidden
+  reward states. Rats adjusted how quickly they initiated trials and how long they
+  waited for rewards across states, balancing effort and time costs against expected
+  rewards. Statistical modeling revealed that animals computed the value of the environment
+  differently when initiating trials versus when deciding how long to wait for rewards,
+  even though these decisions were only seconds apart. Moreover, value estimates interacted
+  via a dynamic learning rate. Our results reveal how distinct value computations
+  interact on rapid timescales, and demonstrate the power of using high-throughput
+  training to understand rich, cognitive behaviors.
 ethicsApproval: []
 id: DANDI:001169/draft
 identifier: DANDI:001169
@@ -28,13 +72,45 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001169/versions/draft/assets/
-name: CatalystNeuro placeholder
+name: Distinct value computations support rapid sequential decisions
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1038/s41467-023-43250-x
+  name: Distinct value computations support rapid sequential decisions
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/https://doi.org/10.1038/s41467-023-43250-x
+- name: constantinople-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/constantinople-lab-to-nwb
+- identifier: ' https://doi.org/10.5281/zenodo.10031483'
+  name: Behavioral data for the value-based decision making task in rats
+  relation: dcite:IsDerivedFrom
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/10031483
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget: []
 url: https://dandiarchive.org/dandiset/001169/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- description: Metadata (contributor, name, relatedResource) was enhanced with data
+    from DOI https://doi.org/10.1038/s41467-023-43250-x by DANDI cli
+  endDate: '2024-08-29 16:07:25.409666+02:00'
+  id: urn:uuid:94d58480-b856-4a78-bbb0-1e5189c7e869
+  name: Metadata extraction from DOI
+  schemaKey: Activity
+  startDate: '2024-08-29 16:06:42.429178+02:00'
+  wasAssociatedWith:
+  - identifier: RRID:SCR_019009
+    name: DANDI Command Line Interface
+    schemaKey: Software
+    url: https://github.com/dandi/dandi-cli
+    version: 0.63.0
