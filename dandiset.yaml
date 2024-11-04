@@ -7,21 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 26198279211
-  numberOfFiles: 23026
-  numberOfSubjects: 291
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
-  variableMeasured: []
 citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, Christine
   M. (2024) Distinct value computations support rapid sequential decisions (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001169/draft
