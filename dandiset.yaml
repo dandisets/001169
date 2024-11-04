@@ -87,6 +87,66 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- awardNumber: DP2MH126376
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH125571
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R00MH111926
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: F31MH130121
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 5T90DA043219
+  identifier: https://ror.org/00fq5cm18
+  name: National Institute on Drug Abuse
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: T32MH019524
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: CAREER
+  identifier: https://ror.org/021nxhr62
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Sloan Fellowship
+  identifier: https://ror.org/052csg198
+  name: Alfred P. Sloan Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Klingenstein-Simons Fellowship
+  identifier: https://ror.org/01q222b25
+  name: Esther A. and Joseph Klingenstein Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: McKnight Scholars Award
+  identifier: https://ror.org/003ghvj67
+  name: McKnight Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-08-08T07:43:25.766173+00:00'
 description: The value of the environment determines animals’ motivational states
   and sets expectations for error-based learning. How are values computed? Reinforcement
@@ -105,9 +165,17 @@ description: The value of the environment determines animals’ motivational sta
   via a dynamic learning rate. Our results reveal how distinct value computations
   interact on rapid timescales, and demonstrate the power of using high-throughput
   training to understand rich, cognitive behaviors.
-ethicsApproval: []
+ethicsApproval:
+- identifier: 'UAWC #2021-1120'
+  schemaKey: EthicsApproval
 id: DANDI:001169/draft
 identifier: DANDI:001169
+keywords:
+- value-based decision making
+- reinforcement learning
+- temporal wagering task
+- sequential decisions
+- behavioral modeling
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -117,16 +185,17 @@ relatedResource:
 - identifier: https://doi.org/10.1038/s41467-023-43250-x
   name: Distinct value computations support rapid sequential decisions
   relation: dcite:IsDescribedBy
+  repository: Nature Communications
   resourceType: dcite:JournalArticle
   schemaKey: Resource
-  url: https://doi.org/https://doi.org/10.1038/s41467-023-43250-x
+  url: https://doi.org/10.1038/s41467-023-43250-x
 - name: constantinople-lab-to-nwb
   relation: dcite:IsCompiledBy
   repository: GitHub
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/constantinople-lab-to-nwb
-- identifier: ' https://doi.org/10.5281/zenodo.10031483'
+- identifier: https://doi.org/10.5281/zenodo.10031483
   name: Behavioral data for the value-based decision making task in rats
   relation: dcite:IsDerivedFrom
   repository: Zenodo
