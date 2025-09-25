@@ -8,9 +8,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 27542256207
+  numberOfFiles: 23034
+  numberOfSubjects: 291
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, Christine
   M. (2025) Distinct value computations support rapid sequential decisions (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001169/draft
@@ -68,13 +80,11 @@ description: The value of the environment determines animals’ motivational sta
 ethicsApproval: []
 id: DANDI:001169/draft
 identifier: DANDI:001169
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001169/versions/draft/assets/
 name: Distinct value computations support rapid sequential decisions
-protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1038/s41467-023-43250-x
   name: Distinct value computations support rapid sequential decisions
@@ -98,20 +108,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001169/draft
 version: draft
-wasGeneratedBy:
-- description: Metadata (contributor, name, relatedResource) was enhanced with data
-    from DOI https://doi.org/10.1038/s41467-023-43250-x by DANDI cli
-  endDate: '2024-08-29 16:07:25.409666+02:00'
-  id: urn:uuid:94d58480-b856-4a78-bbb0-1e5189c7e869
-  name: Metadata extraction from DOI
-  schemaKey: Activity
-  startDate: '2024-08-29 16:06:42.429178+02:00'
-  wasAssociatedWith:
-  - identifier: RRID:SCR_019009
-    name: DANDI Command Line Interface
-    schemaKey: Software
-    url: https://github.com/dandi/dandi-cli
-    version: 0.63.0
+wasGeneratedBy: []
