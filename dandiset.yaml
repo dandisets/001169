@@ -28,29 +28,47 @@ citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, 
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001169/draft
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
+  identifier: https://ror.org/01cwqze88
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
+  identifier: 0000-0002-3425-2498
   includeInCitation: true
   name: Mah, Andrew
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
+  identifier: 0000-0002-9705-2928
   includeInCitation: true
   name: Schiereck, Shannon S.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00hj8s172
+    name: Columbia University
+    schemaKey: Affiliation
   includeInCitation: true
   name: Bossio, Veronica
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
   email: cmc472@nyu.edu
   identifier: 0000-0003-4435-4460
   includeInCitation: true
@@ -58,6 +76,15 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  includeInCitation: false
+  name: Weigl, Szonja
+  roleName:
+  - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2024-08-08T07:43:25.766173+00:00'
 description: The value of the environment determines animals’ motivational states
