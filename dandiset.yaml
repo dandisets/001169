@@ -25,7 +25,7 @@ assetsSummary:
   variableMeasured: []
 citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, Christine
   M. (2026) Distinct value computations support rapid sequential decisions (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001169/draft
+  0.260825.1909) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001169/0.260825.1909
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   identifier: https://ror.org/01cwqze88
@@ -148,6 +148,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-08T07:43:25.766173+00:00'
+datePublished: '2026-08-25T19:09:57.340809+00:00'
 description: The value of the environment determines animals’ motivational states
   and sets expectations for error-based learning. How are values computed? Reinforcement
   learning systems can store or cache values of states or actions that are learned
@@ -165,10 +166,11 @@ description: The value of the environment determines animals’ motivational sta
   via a dynamic learning rate. Our results reveal how distinct value computations
   interact on rapid timescales, and demonstrate the power of using high-throughput
   training to understand rich, cognitive behaviors.
+doi: 10.48324/dandi.001169/0.260825.1909
 ethicsApproval:
 - identifier: 'UAWC #2021-1120'
   schemaKey: EthicsApproval
-id: DANDI:001169/draft
+id: DANDI:001169/0.260825.1909
 identifier: DANDI:001169
 keywords:
 - value-based decision making
@@ -179,8 +181,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001169/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001169/0.260825.1909/assets.yaml
 name: Distinct value computations support rapid sequential decisions
+publishedBy:
+  endDate: '2026-08-25T19:09:57.340809+00:00'
+  id: urn:uuid:f4020dde-262e-4837-9d59-ef3b65356bcb
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-25T19:09:57.340809+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5238ecef-d96f-4bf3-aeb2-b16971d74832
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41467-023-43250-x
   name: Distinct value computations support rapid sequential decisions
@@ -205,6 +219,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001169/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001169/0.260825.1909
+version: 0.260825.1909
 wasGeneratedBy: []
