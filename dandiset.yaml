@@ -25,7 +25,7 @@ assetsSummary:
   variableMeasured: []
 citation: Mah, Andrew; Schiereck, Shannon S.; Bossio, Veronica; Constantinople, Christine
   M. (2026) Distinct value computations support rapid sequential decisions (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001169/draft
+  0.261120.1450) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001169/0.261120.1450
 contributor:
 - awardNumber: 1 UF1 NS 111692-01
   identifier: https://ror.org/01cwqze88
@@ -148,6 +148,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-08-08T07:43:25.766173+00:00'
+datePublished: '2026-11-20T14:50:47.252827+00:00'
 description: The value of the environment determines animals’ motivational states
   and sets expectations for error-based learning. How are values computed? Reinforcement
   learning systems can store or cache values of states or actions that are learned
@@ -165,10 +166,11 @@ description: The value of the environment determines animals’ motivational sta
   via a dynamic learning rate. Our results reveal how distinct value computations
   interact on rapid timescales, and demonstrate the power of using high-throughput
   training to understand rich, cognitive behaviors.
+doi: 10.48324/dandi.001169/0.261120.1450
 ethicsApproval:
 - identifier: 'UAWC #2021-1120'
   schemaKey: EthicsApproval
-id: DANDI:001169/draft
+id: DANDI:001169/0.261120.1450
 identifier: DANDI:001169
 keywords:
 - value-based decision making
@@ -179,8 +181,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001169/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001169/0.261120.1450/assets.yaml
 name: Distinct value computations support rapid sequential decisions
+publishedBy:
+  endDate: '2026-11-20T14:50:47.252827+00:00'
+  id: urn:uuid:b2d12637-ff29-4a0c-8173-97bc2f384f22
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-20T14:50:47.252827+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8a361892-4e3d-4843-afb9-f38a60742485
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41467-023-43250-x
   name: Distinct value computations support rapid sequential decisions
@@ -202,9 +216,33 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/10031483
+releaseNotes: "## Changes since version 0.260825.1909\n\nAll 23,033 session files
+  were re-converted with the corrected conversion ([catalystneuro/constantinople-lab-to-nwb](https://github.com/catalystneuro/constantinople-lab-to-nwb),
+  PR [#38](https://github.com/catalystneuro/constantinople-lab-to-nwb/pull/38), [issue
+  #39](https://github.com/catalystneuro/constantinople-lab-to-nwb/issues/39)). The
+  same sessions and file names are kept, except for one duplicate that was removed.\n
+  \n**Corrections**\n\n- **Duplicate session.** The second copy of `sub-L011_ses-RWTautowait2-20221004-095612`
+  (suffix `-x`) is removed.\n- **Catch probability.** The processed trials table now
+  has `catch_percentage`.\n- **Subject weight.** 11,056 sessions now have the weight
+  recorded for the session date, with its unit (for example `0.237 kg`).\n- **Date
+  of birth.** The date of birth is now in the America/New_York time zone.\n- **Invalid
+  times.** Times above one year are now stored as NaN in the trials, states, events
+  and actions tables (2,028 values in 67 sessions).\n\n**Descriptions**\n\n- **Catch
+  trials.** The descriptions of `is_catch` in the raw and processed trials tables
+  now say what each one marks: the Bpod setting `IsCatch` in the raw table, a reward
+  delay of 100 s in the processed table.\n- **Pre-initiation cue task.** `center_port_cue`
+  is now described: it is true in the sessions of the pre-initiation cue task (Fig.
+  5 of the paper), 762 sessions of 16 rats.\n- **Other columns.** The descriptions
+  of `wait_time_threshold` and `training_stage` are rewritten.\n\n**Known gaps**\n
+  \n- The dandiset holds only the sessions that pass the paper's inclusion criterion.\n
+  - The subject age is a range (P6M/P24M) for 16 rats that have no date of birth in
+  the lab's registry.\n- 360 sessions of 8 rats have a catch probability of 0.3, a
+  value the paper does not list.\n- 456 sessions do not start with a mixed block,
+  where the paper's Methods say every session did.\n- The protocol names `RWTautowait`
+  (86 sessions of six rats) and `RWTautowaitWP` (5 sessions of one rat) are not described."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001169/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001169/0.261120.1450
+version: 0.261120.1450
 wasGeneratedBy: []
